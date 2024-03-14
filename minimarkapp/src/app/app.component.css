@@ -5,3 +5,143 @@
 .div-buttons .btn{
     margin: 5px;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   background-image:url("/static/images/salon.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+  width: 15%;
+ padding: 10px;
+ margin: 10px;
+  float: left;  
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #7facca;
+    margin-top: 150px;
+    padding: 3px;
+
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+.pFila{
+	text-align: center;
+	margin-bottom: 0px;
+	padding:  20px 0;
+	background: #000;
+	color: #fff;
+}
+
+.Sfila{
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	background: #000;
+	color: #fff;
+}
+
+.aprendiz{
+	flex: 1 150px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.aprendiz img{
+	margin-top: 3%;
+	width: 7%;
+	border: 2px solid #BC4749;
+	border-radius: 20px;
+}
+
+.aprendiz a{
+	padding:  6vw;
+	text-decoration: none;
+	color:  #fff;
+}
+
+
+.Tfila{
+	text-align: center;
+	background: #000;
+	color: #fff;
+}
+
+.Tfila img{
+	padding-top: 30px;
+	width: 7%;
+}
+.lOGfila {
+	text-align: center;
+	background: #000;
+	color: peru;
+}
+
+.lOGfila img{
+	padding-top: 30px;
+	width: 15%;
+
+}
